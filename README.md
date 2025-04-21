@@ -1,160 +1,151 @@
 ```markdown
-# ✈️ Airplane Reservation System
+<h1 align="center">✈️ Airplane Reservation System</h1>
+<p align="center">
+  <i>A Streamlit-powered interactive flight booking app</i>
+</p>
 
-Welcome to the **Airplane Reservation System** built using **Streamlit**! This interactive web application allows users to book seats on a flight, view the seating plan, check the fare details, and reset the system.
-
----
-
-## Features
-
-- **Seat Booking**: Select your seat class (First Class, Business Class, Economy Class), choose the number of seats, and book them instantly.
-- **Seating Plan**: View the current seating layout with available and booked seats.
-- **Fare Details**: Check the fare for each class along with optional add-ons like extra legroom, in-flight meals, and priority boarding.
-- **System Reset**: Reset all seats to available status and start fresh.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+  <img src="https://img.shields.io/badge/Framework-Streamlit-red" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
 ---
 
-## 🛠️ Requirements
+## ✨ Features
 
-- Python 3.x
+✅ **Seat Booking** — Choose a class (First, Business, Economy), add passengers, and book your flight.  
+✅ **Seating Plan Visualization** — See which seats are available 🟩 or already booked 🟥.  
+✅ **Fare Calculator** — Instantly view the base fare + optional add-ons (meals, legroom, etc.).  
+✅ **Reset System** — Start fresh by resetting the full seating plan.
+
+---
+
+## 📦 Requirements
+
+- Python 3.8+
 - Streamlit
-- Additional dependencies (see `requirements.txt`)
+- (See `requirements.txt` for complete list)
 
 ---
 
-## 📝 Installation
+## ⚙️ Installation & Setup
 
-To get started with the **Airplane Reservation System**, follow these steps:
+Clone the repository and get started in just a few minutes!
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/airplane-reservation-system.git
-   ```
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/airplane-reservation-system.git
 
-2. Navigate to the project directory:
-   ```bash
-   cd airplane-reservation-system
-   ```
+# 2. Move to project folder
+cd airplane-reservation-system
 
-3. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   ```
+# 3. Create virtual environment (recommended)
+python -m venv venv
 
-4. Activate the virtual environment:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On MacOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+# 4. Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
 
-5. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+# 5. Install dependencies
+pip install -r requirements.txt
 
-6. Run the Streamlit app:
-   ```bash
-   streamlit run main.py
-   ```
+# 6. Launch the app
+streamlit run main.py
+```
 
-Your application will be live at `http://localhost:8501/` in your web browser.
+🚀 App will run at: `http://localhost:8501/`
 
 ---
 
-## 💡 Usage
+## 🧑‍💻 Usage Guide
 
-Once the application is running, you will be presented with the following options:
+### 🪑 1. Book Seats
+- Select class: First, Business, or Economy
+- Choose seat quantity
+- Add optional services:
+  - 🦵 Extra Legroom
+  - 🍽️ In-Flight Meal
+  - 🚀 Priority Boarding
 
-### 1. **📅 Book Seats**
-   - Choose the seat class: **First Class**, **Business Class**, or **Economy Class**.
-   - Select the number of seats to book.
-   - Optionally, choose add-ons such as **Extra Legroom**, **In-Flight Meal**, and **Priority Boarding**.
-   - See a breakdown of the total fare before confirming your booking.
+### 🛋️ 2. View Seating Plan
+- Available: 🟩
+- Booked: 🟥
+- Clear, row-by-row seat layout
 
-### 2. **🛋️ View Seating Plan**
-   - View the current seating layout with available seats (🟩) and booked seats (🟥).
-   - The seating plan shows a visual representation of the plane's seating arrangement with detailed information about the rows.
+### 💰 3. Fare Details
+- View pricing for each class
+- Understand included services and upgrade options
 
-### 3. **💰 View Fare(s)**
-   - View the base fare for each seat class and the optional add-ons.
-   - Understand what comes with each class (luxury services, food options, seating arrangements, etc.).
-
-### 4. **🔄 System Reset**
-   - Reset all seats to available status, useful if you want to start the booking process over.
+### 🔄 4. System Reset
+- Reset all bookings
+- Useful for admins or testing purposes
 
 ---
 
-## 🚀 Project Structure
+## 🗂️ Project Structure
 
 ```
-airplane-reservation-system/
-│
-├── main.py               # The main Streamlit app that drives the user interface
-├── airplane.py           # Contains the Airplane class and booking logic
-├── requirements.txt      # Required dependencies
-└── README.md             # Project documentation
+📁 airplane-reservation-system
+├── main.py             # Streamlit UI
+├── airplane.py         # Airplane logic and backend
+├── requirements.txt    # Required packages
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 📄 Airplane Class Explanation
+## 🧠 Airplane Class Overview
 
-The `Airplane` class (in **airplane.py**) contains all the logic for:
+The `Airplane` class (inside `airplane.py`) manages:
 
-- **Seat booking** for different classes (First, Business, Economy).
-- **Fare calculations** for each class and the optional add-ons.
-- **Seating plan management**, including marking booked seats and resetting the system.
+- ✅ Booking logic
+- ✅ Seating layout updates
+- ✅ Fare calculations (base + add-ons)
+- ✅ Full system reset
 
-The system allows for a dynamic and real-time user experience where available and booked seats are updated instantly.
+It ensures real-time updates and smooth UX throughout the app.
 
 ---
 
-## 🤖 Developed By
+## 🤝 Contributing
+
+Have ideas or found a bug?  
+Feel free to [open an issue](https://github.com/yourusername/airplane-reservation-system/issues) or fork the repo and submit a PR!
+
+---
+
+## 👩‍💻 Developed By
 
 **Muskaan Fayyaz**
 
----
-
-## 🛠️ Dependencies
-
-- **Streamlit**: The framework used to build the web application.
-- **Python**: The programming language used for the backend logic.
+[![Email](https://img.shields.io/badge/Email-Muskaan-blue?logo=gmail&logoColor=white)](mailto:your-email@example.com)
 
 ---
 
-## 🔄 License
+## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💬 Contact
-
-For questions, issues, or contributions, feel free to contact me via [email](mailto:your-email@example.com) or open an issue on GitHub.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Happy flying with the Airplane Reservation System!** ✈️
+## 🌍 Stay Connected
+
+If you find this helpful or use it in your project, feel free to star ⭐ the repository and share your feedback!
+
+> _“Happy flying with the Airplane Reservation System!”_ ✈️
 ```
 
 ---
 
-### Breakdown of the README:
+### 🔧 Improvements Made:
+- Used **GitHub-flavored markdown** features.
+- Added emojis for clarity and fun.
+- Introduced **badges** for better visual structure.
+- Better spacing and formatting for mobile and web viewing.
+- Included **actionable contributing note** and CTA (Call to Action).
 
-1. **Project Overview**: A brief description of what the application does.
-2. **Features**: Highlights of the main features available in the app.
-3. **Installation**: Step-by-step guide on how to install and run the app, including virtual environment setup.
-4. **Usage**: Explains how to interact with the application once it's running, describing each section of the app (e.g., booking seats, viewing fare details).
-5. **Project Structure**: A look at the project file organization.
-6. **Airplane Class**: A short explanation of the `Airplane` class and its functionality.
-7. **Dependencies**: Lists the main libraries and tools used to create the app.
-8. **License**: License details (MIT license used in this example).
-9. **Contact Information**: How to reach out for questions, issues, or contributions.
-
-### Customizing the README:
-
-Feel free to modify sections such as **Contact** and **License** with your own details. This README should now provide users with everything they need to get started with your Airplane Reservation System and contribute if they wish.
+Let me know if you'd like a dark-themed version, or want to auto-generate this from code files!
