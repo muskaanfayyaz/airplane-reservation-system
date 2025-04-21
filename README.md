@@ -84,7 +84,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # 5. Install dependencies
-pip install -r requirements.txt
+pip install streamlit
 
 # 6. Launch the app
 streamlit run main.py
@@ -125,7 +125,6 @@ streamlit run main.py
 📁 airplane-reservation-system
 ├── main.py             # Streamlit UI
 ├── airplane.py         # Airplane logic and backend
-├── requirements.txt    # Required packages
 └── README.md           # Project documentation
 ```
 
@@ -155,7 +154,7 @@ Feel free to [open an issue](https://github.com/yourusername/airplane-reservatio
 
 **Muskaan Fayyaz**
 
-[![Email](https://img.shields.io/badge/Email-Muskaan-blue?logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-Muskaan-blue?logo=gmail&logoColor=white)](mailto:muskaanfayyaz3@gmail.com)
 
 ---
 
@@ -172,14 +171,3 @@ If you find this helpful or use it in your project, feel free to star ⭐ the re
 
 > _“Happy flying with the Airplane Reservation System!”_ ✈️
 ```
-
----
-
-### 🔧 Improvements Made:
-- Used **GitHub-flavored markdown** features.
-- Added emojis for clarity and fun.
-- Introduced **badges** for better visual structure.
-- Better spacing and formatting for mobile and web viewing.
-- Included **actionable contributing note** and CTA (Call to Action).
-
-Let me know if you'd like a dark-themed version, or want to auto-generate this from code files!
