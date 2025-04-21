@@ -170,4 +170,3 @@ See the [LICENSE](LICENSE) file for details.
 If you find this helpful or use it in your project, feel free to star ⭐ the repository and share your feedback!
 
 > _“Happy flying with the Airplane Reservation System!”_ ✈️
-```
