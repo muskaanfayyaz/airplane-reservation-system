@@ -1,4 +1,3 @@
-```markdown
 <h1 align="center">✈️ Airplane Reservation System</h1>
 <p align="center">
   <i>A Streamlit-powered interactive flight booking app</i>
@@ -20,6 +19,41 @@
 ✅ **Reset System** — Start fresh by resetting the full seating plan.
 
 ---
+
+## 📦 Requirements
+
+- Python 3.8+
+- Streamlit
+- (See `requirements.txt` for complete list)
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository and get started in just a few minutes!
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/airplane-reservation-system.git
+
+# 2. Move to project folder
+cd airplane-reservation-system
+
+# 3. Create virtual environment (recommended)
+python -m venv venv
+
+# 4. Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 5. Install dependencies
+pip install -r requirements.txt
+
+# 6. Launch the app
+streamlit run main.py
+
 
 ## 📦 Requirements
 
